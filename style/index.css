@@ -1,45 +1,56 @@
 #latest,
 #popular {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .movie_card {
-    width: 80%;
-    max-width: 320px;
-    position: relative;
-    aspect-ratio: 1/1;
-    box-shadow: 4xp 5px 5px;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 80%;
+  max-width: 320px;
+  position: relative;
+  aspect-ratio: 1/1;
+  box-shadow: 4xp 5px 5px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .overview {
-    position: absolute;
-    height: 0;
-    overflow: hidden;
-    width: 100%;
-    background: #ffcc;
-    bottom: 0;
-    left: 0;
-    display: grid;
-    place-items: center;
-    transition: all 2s ease-in;
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  background: #ffcc;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  transition: all 2s ease-in;
 }
 
 .movie_card img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .movie_card:hover .overview {
-    height: 100%;
-    padding: 2px .4rem;
-    overflow: none;
-
-
+  height: 100%;
+  padding: 2px 0.4rem;
+  overflow: none;
+}
+.Header-navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  border: solid red;
+  height: 54px;
+  text-decoration: none;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: red;
 }
