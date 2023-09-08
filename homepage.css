@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: auto;
+  height: 200px;
+  background-color: rgba(39, 36, 36, 0.788);
+}
+#latest {
+  display: flex;
+  background: #c0bcbc;
+}
+
+.logo-wrapper {
+  font-size: 350%;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.Header-navlist {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  padding-left: 30%;
+}
+.container {
+  display: flex;
+  gap: 40px;
+}
+.series {
+  border: solid greenyellow;
+  margin-top: 159px;
+  /* font-size: 50px; */
+  text-align: center;
+  background: #000;
+  color: aquamarine;
+}
+span {
+  font-size: 50px;
+}
+a {
+  font-size: large;
+}
